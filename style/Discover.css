@@ -1,0 +1,59 @@
+.DiscoverExplore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.DiscoverExplore > p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color: #293FCC;
+    background-color: #E9EDFF;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.DiscoverExplore h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #090F4E;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+.DiscoverExplore > p:last-of-type{
+    font-weight: 400;
+    font-size: 18px;
+    color: #63657E;
+    text-align: center;
+    margin: 0 auto 60px auto;
+    max-width: 750px;
+    line-height: 1.6;
+}
+
+.dashboard{
+    width: 864px;
+    height: 522px;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.graph{
+    width: 201px;
+    height: 195px;
+    position: absolute;
+    bottom: 90px;
+    left: 280px;
+    z-index: 2;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
