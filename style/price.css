@@ -1,0 +1,132 @@
+.price {
+    max-width: 1140px;
+    margin: 100px auto 100px;
+    text-align: center;
+}
+
+.price h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #090F4E;
+    margin-bottom: 16px;
+}
+
+.price > p {
+    max-width: 700px;
+    margin: 0 auto 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #63657E;
+}
+
+.price-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 18px;
+    color: #63657E;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.price-toggle img {
+    height: 24px;
+}
+
+.promotion-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-top: 40px;
+}
+
+.promotion-card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 40px 28px 20px 28px;
+    text-align: left;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 350px;
+    height: 634px;
+}
+
+.promotion-card h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #090F4E;
+}
+
+.promotion-card .card-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #63657E;
+}
+
+.price-value {
+    font-size: 42px;
+    font-weight: 600;
+    color: #020617;
+    padding-right: 15px;
+}
+
+.price-meta {
+    font-size: 16px;
+    font-weight: 500;
+    color: #63657E;
+}
+
+.promotion-card ul {
+    /* list-style-image: url('/icon/Checkmark.png'); */
+    margin-top: 30px;
+    padding-left: 40px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #63657E;
+}
+
+.promotion-card ul li {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.promotion-card ul li::before {
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+    background-image: url("/icon/Checkmark.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.promotion-card button {
+    margin-top: 24px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #E5F1FF;
+    color: #293FCC;
+}
+
+
+.promotion-card--featured {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.promotion-card--featured button {
+    background: #293FCC;
+    color: #FFFFFF;
+}
+
