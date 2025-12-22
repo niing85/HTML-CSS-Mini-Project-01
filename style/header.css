@@ -13,7 +13,7 @@
   }
 
 html{
-    background: linear-gradient(180deg,rgba(225, 232, 252, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(225, 232, 252, 1) 100%);
+    background: linear-gradient(180deg,rgba(225, 232, 252, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 1) 70%, rgb(255, 255, 255) 100%);
     margin: 0px 100px 0px 100px;
 }
 
