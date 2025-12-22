@@ -1,0 +1,90 @@
+.customer-say{
+    position: relative;
+    padding: 80px 200px 100px;
+}
+
+.circle{
+    position: absolute;
+    top: -48px;
+    left: 210px;
+    width: 100px;
+    height: 100px;
+    background-color: #13A6FA;
+    border-radius: 50%;
+    z-index: 1;
+}
+.quote-left{
+    position: absolute;
+    top: -30px;
+    left: 240px;
+    width: 32px;
+    height: 32px;
+    z-index: 2;
+}
+
+.customer-heading h4{
+    margin-left: 80px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #090F4E;
+    max-width: 500px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+}
+
+.customer--01{
+    display: flex;
+    margin: 150px 80px 0px 80px;
+    gap: 60px;
+}
+
+.customer-card-01{
+    padding-right: 100px;
+    border-right: 2px solid #EBF0F4;
+}
+
+
+.customer-title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #090F4E;
+    margin-bottom: 20px;
+    max-width: 460px;
+}
+
+.customer-text{
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #63657E;
+    margin-bottom: 30px;
+    max-width: 460px;
+}
+
+.customer-profile{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.customer-profile img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.customer-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #090F4E;
+}
+
+.customer-role{
+    font-size: 14px;
+    font-weight: 400;
+    color: #63657E;
+}
+
+
