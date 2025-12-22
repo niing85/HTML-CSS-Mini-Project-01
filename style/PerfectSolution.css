@@ -1,0 +1,116 @@
+.PerfectSolution{
+    padding: 80px 120px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.PerfectSolution h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #090F4E;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+.PerfectSolution > p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #7e6363;
+    text-align: center;
+    margin: 0 auto 60px auto;
+    max-width: 750px;
+    line-height: 1.6;
+}
+
+.PerfectSolution-boxwrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.PerfectSolution-box-2{
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.PerfectSolution-box-1,
+.PerfectSolution-box-3{
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.PerfectSolution-box-1 div,
+.PerfectSolution-box-2 div,
+.PerfectSolution-box-3 div{
+    width: 106px;
+    height: 106px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.PerfectSolution-box-1 div{
+    background-color: #FFF4E6;
+}
+
+.PerfectSolution-box-2 div{
+    background-color: #E6F3FF;
+}
+
+.PerfectSolution-box-3 div{
+    background-color: #FFFBE6;
+}
+
+.PerfectSolution-box-1 div img,
+.PerfectSolution-box-2 div img,
+.PerfectSolution-box-3 div img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.PerfectSolution-box-1 > p:first-of-type,
+.PerfectSolution-box-2 > p:first-of-type,
+.PerfectSolution-box-3 > p:first-of-type{
+    font-weight: 600;
+    font-size: 24px;
+    color: #090F4E;
+    margin: 0 0 15px 0;
+}
+
+.PerfectSolution-box-1 > p:last-of-type,
+.PerfectSolution-box-2 > p:last-of-type,
+.PerfectSolution-box-3 > p:last-of-type{
+    font-weight: 400;
+    font-size: 16px;
+    color: #63657E;
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+    flex-grow: 1;
+}
+
+.PerfectSolution-box-1 button,
+.PerfectSolution-box-2 button,
+.PerfectSolution-box-3 button{
+    background: none;
+    border: none;
+    color: rgba(40, 45, 100, 0.5);
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+}
