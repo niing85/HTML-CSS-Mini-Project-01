@@ -1,0 +1,61 @@
+.sing-up-newsletter{
+    margin: 100px 0 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.newsletter-box{
+    background-color: #E7F5FF;
+    border: none;
+    border-radius: 30px;
+    width: 1117px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-box h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #090F4E;
+}
+
+.newsletter-box p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #63657E;
+    max-width: 450px;
+    margin: 20px;
+}
+
+.newsletter-box input{
+    width: 480px;
+    height: 67px;
+    border: none;
+    border-radius: 50px;
+}
+
+.newsletter-box input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(11, 7, 87, 0.2);
+    padding-left: 40px;
+}
+
+.btn-image{
+    background-image: url(/icon/next-button.png);
+    width: 48px; 
+    height: 48px; 
+    border: none; 
+    padding: 0;
+    background-size: contain;
+    position: relative;
+    bottom: 58px;
+    left: 200px;
+    border: none;
+    border-radius: 50%;
+    
+}
