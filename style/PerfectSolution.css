@@ -1,112 +1,116 @@
-.PerfectSolution{
-    padding: 80px 120px;
+.perfect-solution{
+    padding: 5rem auto;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.PerfectSolution h2{
+.perfect-solution h2{
     font-weight: 600;
     font-size: 30px;
     color: #090F4E;
     text-align: center;
-    margin: 40px 0px 20px 0px;
+    margin: 2.5rem auto 1.25rem auto;
 }
 
-.PerfectSolution > p{
+.perfect-solution > p{
     font-weight: 400;
     font-size: 18px;
     color: #63657E;
     text-align: center;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 3.75rem auto;
     max-width: 750px;
     line-height: 1.6;
 }
 
-.PerfectSolution-boxwrap{
+.perfect-solution-boxwrap{
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 12.5rem;
 }
 
-.PerfectSolution-box-2{
-    flex: 1;
+.perfect-solution-box-2{
+    display: flex;
+    flex-shrink: 0;
+    width: 35%;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 40px 30px;
+    padding: 2rem 2rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 
-.PerfectSolution-box-1,
-.PerfectSolution-box-3{
-    flex: 1;
+.perfect-solution-box-1,
+.perfect-solution-box-3{
+    display: flex;
+    flex-shrink: 0;
+    width: 35%;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 40px 30px;
-    display: flex;
+    padding: 2rem 2rem;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.PerfectSolution-box-1 div,
-.PerfectSolution-box-2 div,
-.PerfectSolution-box-3 div{
-    width: 106px;
-    height: 106px;
+.perfect-solution-box-1 div,
+.perfect-solution-box-2 div,
+.perfect-solution-box-3 div{
+    width: 6rem;
+    height: 6rem;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
-.PerfectSolution-box-1 div{
+.perfect-solution-box-1 div{
     background-color: #FFF4E6;
 }
 
-.PerfectSolution-box-2 div{
+.perfect-solution-box-2 div{
     background-color: #E6F3FF;
 }
 
-.PerfectSolution-box-3 div{
+.perfect-solution-box-3 div{
     background-color: #FFFBE6;
 }
 
-.PerfectSolution-box-1 div img,
-.PerfectSolution-box-2 div img,
-.PerfectSolution-box-3 div img{
-    width: 60px;
-    height: 60px;
+.perfect-solution-box-1 div img,
+.perfect-solution-box-2 div img,
+.perfect-solution-box-3 div img{
+    width: 4rem;
+    height: 4rem;
     object-fit: contain;
 }
 
-.PerfectSolution-box-1 > p:first-of-type,
-.PerfectSolution-box-2 > p:first-of-type,
-.PerfectSolution-box-3 > p:first-of-type{
+.perfect-solution-box-1 > p:first-of-type,
+.perfect-solution-box-2 > p:first-of-type,
+.perfect-solution-box-3 > p:first-of-type{
     font-weight: 600;
     font-size: 24px;
     color: #090F4E;
-    margin: 0 0 15px 0;
+    margin: 0 0 1rem 0;
 }
 
-.PerfectSolution-box-1 > p:last-of-type,
-.PerfectSolution-box-2 > p:last-of-type,
-.PerfectSolution-box-3 > p:last-of-type{
+.perfect-solution-box-1 > p:last-of-type,
+.perfect-solution-box-2 > p:last-of-type,
+.perfect-solution-box-3 > p:last-of-type{
     font-weight: 400;
     font-size: 16px;
     color: #63657E;
     line-height: 1.6;
-    margin: 0 0 25px 0;
+    margin: 0 0 2rem 0;
     flex-grow: 1;
 }
 
-.PerfectSolution-box-1 button,
-.PerfectSolution-box-2 button,
-.PerfectSolution-box-3 button{
+.perfect-solution-box-1 button,
+.perfect-solution-box-2 button,
+.perfect-solution-box-3 button{
     background: none;
     border: none;
     color: rgba(40, 45, 100, 0.5);
@@ -114,4 +118,16 @@
     font-size: 16px;
     cursor: pointer;
     padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .perfect-solution-boxwrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 5.56rem;
+    }
+
 }
